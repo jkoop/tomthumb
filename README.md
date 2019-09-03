@@ -8,9 +8,9 @@ TomThumb is a BASH script that, when a USB stick is inserted, will smartly skip 
 - Semi-automatic syncronizaion
 - Seprate folders for different FSs of USB sticks (and optical discs)
 - Seprate folders for different times of syncronization occuransences
-- Uses rsync for syncing
-- Uses cp --hard to sync only differences
-- Uses jdupes to reduce space needed for cache
+- Uses `rsync` for syncing
+- Uses `cp --hard` to sync only differences
+- Uses `jdupes` to reduce space needed for cache
 
 ## Dependencies
 
