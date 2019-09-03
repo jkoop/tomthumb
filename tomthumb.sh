@@ -1,11 +1,12 @@
 #! /bin/bash
 
 ##  TomThumb v0.1.0 Copyright 2019 Joe Koop; MIT licence
+##  https://joekoop.com/tomthumb/docs/v0.1.0/
 
 whoami=$(whoami)
 
 mkdir -p /home/$whoami/.tomthumb
-cd /home/$whoami/.tomthumb/
+cd /home/$whoami/.tomthumb
 
 function sync(){
 	if [ "$1" == '' ]; then
@@ -89,6 +90,8 @@ if [ "$1" != '' ]; then
 	sleep 2
 	exit
 fi
+
+echo "Ready.."
 
 while :
 do
